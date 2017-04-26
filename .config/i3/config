@@ -36,7 +36,7 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -l 4 -h 40 -w 800 -x 560 -y 460 -nb $bg-color -nf $text-color -sb $color-highlight"
+bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -l 4 -h 40 -w 800 -x 560 -y 460 -nb '$bg-color' -nf '$text-color' -sb '$color-highlight'"
 
 # change focus
 bindsym $mod+j focus down
@@ -93,7 +93,8 @@ bindsym $mod+Shift+p scratchpad show
 set $workspace1 " 1  "
 set $workspace2 " 2  "
 set $workspace3 " 3  "
-set $workspace4 " 4  "
+#set $workspace4 " 4  "
+set $workspace4 " 4 ? "
 set $workspace5 " 5 ? "
 set $workspace6 " 6 ? "
 set $workspace7 " 7 ? "
