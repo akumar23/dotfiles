@@ -63,10 +63,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+$mod2+h split h
+bindsym $mod2+h split h
 
 # split in veri3-sensible-terminaltical orientation
-bindsym $mod+$mod2+v split v
+bindsym $mod2+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -92,12 +92,12 @@ bindsym $mod+Shift+p scratchpad show
 #bindsym $mod+d focus child
 set $workspace1 " 1  "
 set $workspace2 " 2  "
-set $workspace3 " 3  "
+set $workspace3 " 3 ? "
 #set $workspace4 " 4  "
 set $workspace4 " 4 ? "
 set $workspace5 " 5 ? "
 set $workspace6 " 6 ? "
-set $workspace7 " 7 ? "
+set $workspace7 " 7  "
 set $workspace8 " 8  "
 set $workspace9 " 9 ~ "
 
@@ -105,6 +105,7 @@ assign [class="Thunderbird"] $workspace8
 assign [class="Franz"] $workspace8
 assign [class="processing-app-Base"] $workspace3
 assign [class="Fritzing"] $workspace3
+for_window [class="Qalculate-gtk"] floating enable
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -223,7 +224,8 @@ exec --no-startup-id xinput set-prop 13 282 1
 exec --no-startup-id xmodmap -e "clear lock" #disable caps lock switch
 exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
 
-exec  --no-startup-id xss-lock -- i3lock -i /usr/share/backgrounds/mountains_grey.png
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id xss-lock -- i3lock -i /usr/share/backgrounds/mountains_grey.png
 
 exec --no-startup-id dropbox
 exec --no-startup-id redshift-gtk

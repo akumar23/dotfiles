@@ -6,7 +6,7 @@ alias ktiles='~/wmtricks/killtiles.sh'
 alias tiles='~/wmtricks/tiles.sh'
 alias dash='~/wmtricks/dashboard.sh'
 alias killtiles='ktiles'
-alias terminal="xfce4-terminal"
+alias terminal="gnome-terminal"
 alias httpserv="python3 -m http.server 8000"
 alias transmissionremote="transmission-remote-cli -f .trclirc"
 
