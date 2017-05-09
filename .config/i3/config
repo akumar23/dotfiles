@@ -17,9 +17,9 @@ set $text-color-2 #7f8c8d
 
 # Window colors
 #			border		background	text			indicator
-client.focused		$color-border	$bg-color	$text-color		$color-border
-client.unfocused	$color-border	$bg-color-2	$text-color-2		$color-border
-client.focused_inactive	$color-border	$bg-color-2	$text-color-2		$color-border
+client.focused		$color-border	$bg-color-2	$text-color		$color-border
+client.unfocused	$color-border	$bg-color	$text-color-2		$color-border
+client.focused_inactive	$color-border	$bg-color	$text-color-2		$color-border
 client.urgent		$color-urgent	$color-border	$text-color		$color-border
 
 # Use Mouse+$mod to drag floating windows to their wanted position
