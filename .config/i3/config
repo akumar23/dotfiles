@@ -229,3 +229,4 @@ exec --no-startup-id xss-lock -- i3lock -i /usr/share/backgrounds/mountains_grey
 
 exec --no-startup-id dropbox
 exec --no-startup-id redshift-gtk
+exec --no-startup-id caffeine

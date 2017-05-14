@@ -19,9 +19,10 @@ general {
 order += "load"
 order += "disk /"
 # order += "disk /home"
+order += "volume master"
 order += "wireless _first_"
 order += "ethernet _first_"
-order += "volume master"
+#order += "volume master"
 order += "battery all"
 # order += "load"
 order += "tztime local"
@@ -58,6 +59,7 @@ battery all {
         format_down = "No battery"
         last_full_capacity = true
         integer_battery_capacity = true
+	hide_seconds = true
         status_chr = ""
         #status_chr = "⚡"
         # status_bat = "bat"
