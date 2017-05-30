@@ -19,6 +19,7 @@ alias mercury="ssh fonorobert@mercury.fono.space"
 alias venus="ssh fonorobert@venus.fono.space"
 alias mars="ssh fonorobert@mars.fono.space"
 alias uranus="ssh fonorobert@uranus.fono.space"
+alias ada="ssh fonorobert@138.68.67.77"
 
 alias jupitermosh='mosh -p 60001 fonorobert@jupiter.fono.space'
 alias callistomosh='mosh -p 60040 --ssh="ssh -p 942" fonorobert@jupiter.fono.space'
