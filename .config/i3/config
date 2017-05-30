@@ -106,6 +106,7 @@ assign [class="Franz"] $workspace8
 assign [class="processing-app-Base"] $workspace3
 assign [class="Fritzing"] $workspace3
 for_window [class="Qalculate-gtk"] floating enable
+for_window [class="keepassxc"] floating enable
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
