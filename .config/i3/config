@@ -103,7 +103,7 @@ set $workspace9 " 9 ~ "
 
 assign [class="Thunderbird"] $workspace8
 assign [class="Franz"] $workspace8
-assign [class="processing-app-Base"] $workspace3
+#assign [class="processing-app-Base"] $workspace3
 assign [class="Fritzing"] $workspace3
 for_window [class="Qalculate-gtk"] floating enable
 for_window [class="keepassxc"] floating enable
