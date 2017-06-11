@@ -219,9 +219,11 @@ mode "$mode_power" {
 
 exec --no-startup-id compton
 
-exec --no-startup-id xinput set-prop 12 277 -0.8
-exec --no-startup-id xinput set-prop 13 295 1
-exec --no-startup-id xinput set-prop 13 282 1
+#exec --no-startup-id xinput set-prop 12 277 -0.8
+exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint Stick" "libinput Accel Speed" -0.9
+exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Tapping Enabled" 1
+#exec --no-startup-id xinput set-prop 13 295 1
+#exec --no-startup-id xinput set-prop 13 282 1
 
 exec --no-startup-id xmodmap -e "clear lock" #disable caps lock switch
 exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
