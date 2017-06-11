@@ -222,6 +222,7 @@ exec --no-startup-id compton
 #exec --no-startup-id xinput set-prop 12 277 -0.8
 exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint Stick" "libinput Accel Speed" -0.9
 exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Natural Scrolling Enabled" 1
 #exec --no-startup-id xinput set-prop 13 295 1
 #exec --no-startup-id xinput set-prop 13 282 1
 
@@ -233,4 +234,4 @@ exec --no-startup-id xss-lock -- i3lock -i /usr/share/backgrounds/mountains_grey
 
 exec --no-startup-id dropbox
 exec --no-startup-id redshift-gtk
-exec --no-startup-id caffeine
+libinput Natural Scrolling Enabledexec --no-startup-id caffeine
