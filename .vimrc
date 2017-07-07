@@ -3,6 +3,8 @@ set ai
 syntax on
 set laststatus=2
 set ttimeoutlen=10
+set tabstop=4
+set shiftwidth=4
 
 let b:airline_whitespace_disabled = 1
 
