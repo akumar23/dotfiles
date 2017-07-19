@@ -1,4 +1,4 @@
-alias ll="ls -alh"
+alias ll="ls -lah"
 alias tilde="mosh frs@tilde.town"
 alias todo='~/.local/opt/todo.sh/todo.sh -a -d ~/.config/todo.cfg'
 alias t='todo'
