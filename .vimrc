@@ -5,6 +5,7 @@ set laststatus=2
 set ttimeoutlen=10
 set tabstop=4
 set shiftwidth=4
+hi MatchParen cterm=underline ctermbg=none ctermfg=none
 
 let b:airline_whitespace_disabled = 1
 
