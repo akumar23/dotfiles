@@ -1,14 +1,6 @@
 alias ll="ls -lah"
 alias tilde="mosh frs@tilde.town"
-alias todo='~/.local/opt/todo.sh/todo.sh -a -d ~/.config/todo.cfg'
-alias t='todo'
-alias ktiles='~/wmtricks/killtiles.sh'
-alias tiles='~/wmtricks/tiles.sh'
-alias dash='~/wmtricks/dashboard.sh'
-alias killtiles='ktiles'
-alias terminal="gnome-terminal"
 alias httpserv="python3 -m http.server 8000"
-alias transmissionremote="transmission-remote-cli -f .trclirc"
 
 # ssh connections
 
