@@ -27,7 +27,7 @@ client.urgent		$color-urgent	$color-border	$text-color		$color-border
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal 
+bindsym $mod+Return exec terminal 
 
 # kill focused window
 bindsym $mod+Shift+q kill
