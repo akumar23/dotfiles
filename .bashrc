@@ -33,6 +33,7 @@ colors() {
 }
 
 [[ -f ~/.extend.bashrc ]] && . ~/.extend.bashrc
+[[ -f ~/.extend.bashrc.mac ]] && . ~/.extend.bashrc.mac
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
@@ -45,7 +46,6 @@ HISTCONTROL=ignoreboth
 export PATH="${PATH}:/home/fonorobert/.gem/ruby/2.4.0/bin"
 export EDITOR=vim
 #eval $(thefuck --alias)
-
 
 if [ -n "$DESKTOP_SESSION" ];then
     eval $(gnome-keyring-daemon --start)
