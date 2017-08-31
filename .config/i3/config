@@ -218,7 +218,7 @@ mode "$mode_power" {
     bindsym Escape mode "default"
 }
 
-exec --no-startup-id compton
+exec --no-startup-id compton --backend xrender
 
 #exec --no-startup-id xinput set-prop 12 277 -0.8
 exec --no-startup-id xinput set-prop "AlpsPS/2 ALPS DualPoint Stick" "libinput Accel Speed" -0.9
