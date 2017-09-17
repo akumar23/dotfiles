@@ -8,6 +8,7 @@ set shiftwidth=4
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
 
 let b:airline_whitespace_disabled = 1
+let g:airline_powerline_fonts = 1 
 
 call plug#begin('~/.vim/plugged')
 
