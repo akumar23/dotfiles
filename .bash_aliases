@@ -8,6 +8,7 @@ alias jupiter="ssh fonorobert@jupiter.fono.space"
 alias europa="ssh -p 932 fonorobert@jupiter.fono.space"
 alias callisto="ssh -p 942 fonorobert@jupiter.fono.space"
 alias mercury="ssh fonorobert@mercury.fono.space"
+alias pluto="ssh -p 922 fonorobert@mercury.fono.space"
 alias venus="ssh fonorobert@venus.fono.space"
 alias mars="ssh fonorobert@mars.fono.space"
 alias uranus="ssh fonorobert@uranus.fono.space"
@@ -17,6 +18,7 @@ alias jupitermosh='mosh -p 60001 fonorobert@jupiter.fono.space'
 alias callistomosh='mosh -p 60040 --ssh="ssh -p 942" fonorobert@jupiter.fono.space'
 alias europamosh='mosh -p 60030 --ssh="ssh -p 932" fonorobert@jupiter.fono.space'
 alias mercurymosh='mosh -p 60001 fonorobert@mercury.fono.space'
+alias plutomosh='mosh -p 60002 --ssh="ssh -p 922" fonorobert@mercury.fono.space'
 alias marsmosh="mosh fonorobert@mars.fono.space"
 alias venusmosh='mosh -p 60001 fonorobert@venus.fono.space'
 
