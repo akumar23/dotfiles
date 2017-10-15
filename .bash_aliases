@@ -1,4 +1,5 @@
-alias ll="ls -lah"
+alias ls="ls --color=auto"
+alias ll="ls -lah --color=auto"
 alias tilde="mosh frs@tilde.town"
 alias httpserv="python3 -m http.server 8000"
 
