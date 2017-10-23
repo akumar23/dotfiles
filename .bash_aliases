@@ -27,4 +27,4 @@ alias syncthing-mercury="echo 'localhost:8080'; ssh -L 8080:127.0.0.1:8384 fonor
 alias syncthing-callisto="echo 'localhost:8081'; ssh -L 8081:127.0.0.1:8384 -p 942 fonorobert@jupiter.fono.space"
 alias syncthing-europa="echo 'localhost:8082'; ssh -L 8082:127.0.0.1:8384 -p 932 fonorobert@jupiter.fono.space"
 alias syncthing-venus="echo 'localhost:8083'; ssh -L 8083:127.0.0.1:8384 fonorobert@venus.fono.space"
-
+alias duplicati-callisto="echo 'localhost:8080'; ssh -L 8080:127.0.0.1:8200 -p 942 fonorobert@jupiter.fono.space"
