@@ -1,0 +1,3 @@
+#toggle airplane mode
+"/home/fonorobert/scripts/airplane.sh"
+	m:0x0 + c:255
