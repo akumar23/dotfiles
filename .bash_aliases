@@ -2,6 +2,7 @@ alias ls="ls --color=auto"
 alias ll="ls -lah --color=auto"
 alias tilde="mosh frs@tilde.town"
 alias httpserv="python3 -m http.server 8000"
+alias dropboxctl="~/.local/opt/dropboxctl.py"
 
 # ssh connections
 
