@@ -40,5 +40,16 @@
     m:0x0 + c:255
     NoSymbol 
 
+######################
+# MX Master Settings #
+######################
+
+# thumb wheel up => switch workspace up
+"xdotool key super+Page_Up"
+   b:6
+
+# thumb wheel down => switch workspace down
+"xdotool key super+Page_Down"
+   b:7
 #
 # End of xbindkeys configuration
