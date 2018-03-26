@@ -45,11 +45,11 @@
 ######################
 
 # thumb wheel up => switch workspace up
-"xdotool key super+Page_Up"
-   b:6
+#"xdotool key super+Page_Up"
+#   b:6
 
 # thumb wheel down => switch workspace down
-"xdotool key super+Page_Down"
-   b:7
+#"xdotool key super+Page_Down"
+#   b:7
 #
 # End of xbindkeys configuration
