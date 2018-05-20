@@ -6,9 +6,9 @@ alias dropboxctl="~/.local/opt/dropboxctl.py"
 
 # ssh connections
 
-alias jupiter="ssh fonorobert@jupiter.fono.space"
-alias europapublic="ssh -p 932 fonorobert@jupiter.fono.space"
-alias callistopublic="ssh -p 942 fonorobert@jupiter.fono.space"
+alias jupiter="ssh -p 922 fonorobert@jupiter.fono.space"
+alias europapublic="ssh -p 942 fonorobert@jupiter.fono.space"
+alias callistopublic="ssh -p 952 fonorobert@jupiter.fono.space"
 alias mercurypublic="ssh fonorobert@mercury.fono.space"
 alias plutopublic="ssh -p 922 fonorobert@mercury.fono.space"
 alias venuspublic="ssh fonorobert@venus.fono.space"
