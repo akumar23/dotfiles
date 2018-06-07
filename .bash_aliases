@@ -6,6 +6,7 @@ alias dropboxctl="~/.local/opt/dropboxctl.py"
 
 # ssh connections
 
+alias sun="ssh fonorobert@sun.fono.space"
 alias jupiter="ssh -p 922 fonorobert@jupiter.fono.space"
 alias europapublic="ssh -p 942 fonorobert@jupiter.fono.space"
 alias callistopublic="ssh -p 952 fonorobert@jupiter.fono.space"
@@ -18,6 +19,7 @@ alias ada="ssh fonorobert@138.68.67.77"
 alias frsspace="ssh fonorobert_frsspace@ssh.phx.nearlyfreespeech.net"
 alias frsspace-sftp="sftp fonorobert_frsspace@ssh.phx.nearlyfreespeech.net"
 
+alias sunmosh="mosh fonorobert@sun.fono.space"
 alias jupitermosh='mosh -p 60001 fonorobert@jupiter.fono.space'
 alias callistomoshpublic='mosh -p 60040 --ssh="ssh -p 942" fonorobert@jupiter.fono.space'
 alias europamoshpublic='mosh -p 60030 --ssh="ssh -p 932" fonorobert@jupiter.fono.space'
