@@ -1,0 +1,13 @@
+[user]
+	email = fonorobert@gmail.com
+	name = Robert Fono
+
+[alias]
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	cm = commit -m
+	a = add .
+	co = checkout
+	br = branch
+	nbr = checkout -b
+
