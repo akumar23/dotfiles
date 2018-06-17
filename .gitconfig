@@ -12,3 +12,4 @@
 	nbr = checkout -b
 	syn= pull --ff-only
 	mpr = merge --no-ff
+	pall = push all --all
