@@ -18,6 +18,8 @@ alias uranus="ssh fonorobert@uranus.fono.space"
 alias ada="ssh fonorobert@138.68.67.77"
 alias frsspace="ssh fonorobert_frsspace@ssh.phx.nearlyfreespeech.net"
 alias frsspace-sftp="sftp fonorobert_frsspace@ssh.phx.nearlyfreespeech.net"
+alias fonorobertcom="ssh fonorobert_fonorobertcom@ssh.phx.nearlyfreespeech.net"
+alias fonorobertcom-sftp="sftp fonorobert_fonorobertcom@ssh.phx.nearlyfreespeech.net"
 
 alias sunmosh="mosh fonorobert@sun.fono.space"
 alias jupitermosh='mosh -p 60001 fonorobert@jupiter.fono.space'
