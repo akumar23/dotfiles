@@ -8,8 +8,10 @@
 	cm = commit -m
 	a = add .
 	co = checkout
+	ch = checkout
 	br = branch
 	nbr = checkout -b
 	syn= pull --ff-only
 	mpr = merge --no-ff
 	pall = push all --all
+	pm = push origin master
