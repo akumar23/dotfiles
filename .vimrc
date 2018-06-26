@@ -15,5 +15,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Plug 'ervandew/supertab'
+Plug 'valloric/youcompleteme'
 
 call plug#end()
