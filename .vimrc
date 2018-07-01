@@ -7,6 +7,9 @@ set tabstop=4
 set shiftwidth=4
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
 
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 let b:airline_whitespace_disabled = 1
 let g:airline_powerline_fonts = 1 
 
@@ -21,6 +24,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'valloric/youcompleteme'
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'flazz/vim-colorschemes'
 
 call plug#end()
