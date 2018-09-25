@@ -1,11 +1,13 @@
 alias ls="ls --color=auto"
 alias ll="ls -lah --color=auto"
-alias tilde="mosh frs@tilde.town"
+alias cop="rsync -ah --progress"
 alias httpserv="python3 -m http.server 8000"
 alias dropboxctl="~/.local/opt/dropboxctl.py"
 
+
 # ssh connections
 
+alias tilde="mosh frs@tilde.town"
 alias sun="ssh fonorobert@sun.fono.space"
 alias jupiter="ssh -p 922 fonorobert@jupiter.fono.space"
 alias europapublic="ssh -p 942 fonorobert@jupiter.fono.space"
@@ -13,6 +15,7 @@ alias callistopublic="ssh -p 952 fonorobert@jupiter.fono.space"
 alias mercurypublic="ssh fonorobert@mercury.fono.space"
 alias plutopublic="ssh -p 922 fonorobert@mercury.fono.space"
 alias venuspublic="ssh fonorobert@venus.fono.space"
+alias eros="ssh fonorobert@eros.fono.space"
 alias mars="ssh fonorobert@mars.fono.space"
 alias uranus="ssh fonorobert@uranus.fono.space"
 alias ada="ssh fonorobert@138.68.67.77"
@@ -29,6 +32,7 @@ alias mercurymoshpublic='mosh -p 60001 fonorobert@mercury.fono.space'
 alias plutomoshpublic='mosh -p 60002 --ssh="ssh -p 922" fonorobert@mercury.fono.space'
 alias marsmosh="mosh fonorobert@mars.fono.space"
 alias venusmoshpublic='mosh -p 60001 fonorobert@venus.fono.space'
+alias erosmosh="mosh fonorobert@eros.fono.space"
 
 alias syncthing-mercury="echo 'localhost:8080'; ssh -L 8080:127.0.0.1:8384 fonorobert@mercury.fono.space"
 alias syncthing-callisto="echo 'localhost:8081'; ssh -L 8081:127.0.0.1:8384 -p 942 fonorobert@jupiter.fono.space"
