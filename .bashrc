@@ -50,7 +50,7 @@ export GOPATH=~/go
 export GOBIN=$GOPATH/bin
 
 shopt -s cdable_vars
-export ~~="/mnt/data"
+export d=/mnt/data
 
 if [ -n "$DESKTOP_SESSION" ];then
     eval $(gnome-keyring-daemon --start)
