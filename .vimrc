@@ -12,6 +12,7 @@ set omnifunc=syntaxcomplete#Complete
 
 let b:airline_whitespace_disabled = 1
 let g:airline_powerline_fonts = 1 
+let g:ycm_server_python_interpreter = '/usr/bin/python3.7'
 
 colorscheme DarkDefault
 

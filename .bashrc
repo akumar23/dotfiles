@@ -48,7 +48,9 @@ export PATH="${PATH}:/home/fonorobert/.gem/ruby/2.4.0/bin:/home/fonorobert/.loca
 export EDITOR=vim
 export GOPATH=~/go
 export GOBIN=$GOPATH/bin
-#eval $(thefuck --alias)
+
+shopt -s cdable_vars
+export ~~="/mnt/data"
 
 if [ -n "$DESKTOP_SESSION" ];then
     eval $(gnome-keyring-daemon --start)
